@@ -33,4 +33,4 @@ TARGET_SYSTEM_PROP += vendor/xiaomi/camera/configs/properties/system.prop
 PRODUCT_PACKAGES += \
     libgui_shim_miuicamera
 
-$(call inherit-product, vendor/xiaomi/camera/camera-vendor.mk)
+$(call inherit-product, vendor/xiaomi/miuicamera/camera-vendor.mk)
